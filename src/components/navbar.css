@@ -1,0 +1,110 @@
+nav {
+  height: 5rem;
+  display: grid;
+  background: var(--color-primary);
+  width: 100vw;
+  place-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+/* show this button on small on small and medium devices */
+
+.nav__toggle-btn {
+  display: none;
+}
+
+.nav__container {
+  height: 100%;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.logo {
+  width: 8rem;
+}
+.nav__links {
+  display: flex;
+  gap: 3.5rem;
+  align-items: center;
+}
+
+.nav__links a {
+  transition: var(--transition);
+}
+
+.nav__links a:hover {
+  color: var(--color-secondary);
+  cursor: pointer;
+}
+
+.active-nav {
+  position: relative;
+}
+.active-nav::after {
+  content: "";
+  display: block;
+  width: 2rem;
+  height: 2rem;
+  background: var(--color-primary);
+  transform: rotate(45deg);
+  position: absolute;
+  left: calc(50% - 0.6rem);
+}
+
+/* MEDIA QUERIES for medium and small screens */
+
+@media screen and (max-width: 1024px) {
+  .nav__toggle-btn {
+    display: inline-block;
+    background: transparent;
+    font-size: 1.8rem;
+    cursor: pointer;
+    border: none;
+  }
+  .nav__toggle-btn svg {
+    color: var(--color-gray-100);
+  }
+  .nav__links {
+    position: absolute;
+    flex-direction: column;
+    top: 100%;
+    right: 0;
+    gap: 0;
+  }
+  .active-nav,
+  .active-nav::after {
+    display: none;
+  }
+
+  .nav__links li {
+    width: 100%;
+    height: 4rem;
+    box-shadow: -2rem 2rem 5rem rgba(0, 0, 0, 0.4);
+  }
+
+  .nav__links li a {
+    background: var(--color-primary);
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    padding: 1rem 5rem 1rem 3rem;
+    display: flex;
+  }
+  .show__nav {
+    display: flex;
+  }
+  .hide__nav {
+    display: none;
+  }
+}
+
+@media screen and (max-width:600) {
+  .nav__container{
+    width: 100%;
+  }
+}
