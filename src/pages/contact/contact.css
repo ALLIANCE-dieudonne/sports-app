@@ -1,0 +1,33 @@
+.section__icons{
+    /* margin-inline: auto; */
+    justify-content: center;
+    display: flex;
+    /* background: red; */
+    width: 20%;
+    /* padding: 1rem 1rem; */
+    gap: 2rem;
+    margin: 10rem auto;
+    
+}
+
+.contact__icon{
+
+    padding: 0.6rem 1.5rem;
+    background: var(--color-primary);
+    border-radius: 1rem;
+    font-size: 2rem;
+    border: 2px solid transparent;
+    transition: var(--transition);
+    
+}
+
+.contact__icon:hover{
+    border-color: var(--color-gray-100);
+    background: transparent;
+}
+
+@media screen and (max-width:600px){
+    .section__icons{
+        margin: 10rem auto;
+    }
+}

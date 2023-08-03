@@ -1,0 +1,32 @@
+.plans {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+
+}
+
+.price {
+    padding: 1rem;
+}
+
+.features {
+    margin-bottom: 0.5rem;
+}
+
+.plans .btn {
+    margin-top: 0.5rem;
+    cursor: pointer;
+}
+
+.disabled {
+    opacity: 0.3;
+}
+
+/* on small screens */
+
+@media screen and (max-width: 600px){
+.plans{
+    display: flex;
+    flex-direction:column;
+}    
+}

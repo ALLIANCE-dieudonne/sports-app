@@ -1,4 +1,3 @@
-import Footer from '../../components/Footer'
 import FrequentryAskedQs from '../../components/FrequentryAskedQs'
 import FAQS from '../../components/FrequentryAskedQs'
 import MainHeader from '../../components/MainHeader'
@@ -15,7 +14,7 @@ const Home = (props) => {
       <Values/>
       <FrequentryAskedQs/>
       <Testimonials/>
-      <Footer/>
+     
     </div>
   )
 }
