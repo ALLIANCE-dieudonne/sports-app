@@ -17,6 +17,8 @@ import Image13 from '../../assets/images/gallery13.jpg'
 import Image14 from '../../assets/images/gallery14.jpg'
 import Image15 from '../../assets/images/gallery15.jpg'
 import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
+
 
 const Galley = (props) => {
   return (
@@ -31,27 +33,27 @@ const Galley = (props) => {
       <section>
         <div className="container gallery_images_container">
           <div className="gallery__image_wrapper_one">
-            <LazyLoadImage src={Image1} alt="image one" />
-            <LazyLoadImage src={Image2} alt="image two" />
-            <LazyLoadImage src={Image3} alt="image three" />
-            <LazyLoadImage src={Image4} alt="image four" />
-            <LazyLoadImage src={Image5} alt="image five" />
-            <LazyLoadImage src={Image6} alt="image six" />
+            <LazyLoadImage src={Image1} alt="image one" effect="blur" />
+            <LazyLoadImage src={Image2} alt="image two" effect="blur"/>
+            <LazyLoadImage src={Image3} alt="image three" effect="blur"/>
+            <LazyLoadImage src={Image4} alt="image four" effect="blur"/>
+            <LazyLoadImage src={Image5} alt="image five" effect="blur"/>
+            <LazyLoadImage src={Image6} alt="image six" effect="blur"/>
           </div>
 
           <div className="gallery__image_wrapper_two">
-            <LazyLoadImage src={Image7} alt="image seven" />
-            <LazyLoadImage src={Image8} alt="image eight" />
-            <LazyLoadImage src={Image9} alt="image nine" />
+            <LazyLoadImage src={Image7} alt="image seven"effect="blur" />
+            <LazyLoadImage src={Image8} alt="image eight" effect="blur"/>
+            <LazyLoadImage src={Image9} alt="image nine" effect="blur"/>
           </div>
 
           <div className="gallery__image_wrapper_one">
-            <LazyLoadImage src={Image10} alt="image ten" />
-            <LazyLoadImage src={Image11} alt="image eleven" />
-            <LazyLoadImage src={Image12} alt="image twelve" />
-            <LazyLoadImage src={Image13} alt="image thirteen" />
+            <LazyLoadImage src={Image10} alt="image ten" effect="blur"/>
+            <LazyLoadImage src={Image11} alt="image eleven" effect="blur"/>
+            <LazyLoadImage src={Image12} alt="image twelve" effect="blur"/>
+            <LazyLoadImage src={Image13} alt="image thirteen" effect="blur"/>
             <LazyLoadImage src={Image14} alt="image fourteen" />
-            <LazyLoadImage src={Image15} alt="image fifteen" />
+            <LazyLoadImage src={Image15} alt="image fifteen" effect="blur"/>
           </div>
         </div>
       </section>

@@ -10,7 +10,7 @@ const Values = () => {
       <div className="container values__container">
         <div className="values__left">
           <div className="values__img">
-            <LazyLoadImage src={Image} alt="values img" />
+            <LazyLoadImage src={Image} alt="values img" effect="blur"/>
           </div>
         </div>
         <div className="values__right">

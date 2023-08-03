@@ -4,6 +4,8 @@ import StoryImage from "../../assets/images/about1.jpg";
 import MissionImage from "../../assets/images/about2.jpg";
 import VisionImage from "../../assets/images/about.jpeg";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
+
 
 import "./about.css";
 
@@ -23,6 +25,7 @@ const About = (props) => {
               src={StoryImage}
               alt="about image one"
               className="vision_image"
+              effect="blur"
             />
           </div>
 
@@ -54,6 +57,7 @@ const About = (props) => {
               src={VisionImage}
               alt="vision image one"
               className="vision__section-img"
+              effect="blur"
             />
             <div className="vision__section-content">
               <h2>Our Vision</h2>
@@ -76,7 +80,7 @@ const About = (props) => {
 
         <div className=" mission__story">
           <div className="about__section-img">
-            <LazyLoadImage src={MissionImage} alt="misson img" />
+            <LazyLoadImage src={MissionImage} alt="misson img" effect="blur" />
           </div>
 
           <div className="about__section-content">
