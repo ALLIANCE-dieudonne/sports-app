@@ -1,44 +1,38 @@
-import {SiOpenaigym} from 'react-icons/si'
-import Avatar1 from './assets/images/avatar1.jpg'
-import Avatar2 from './assets/images/avatar2.jpg'
-import Avatar3 from './assets/images/avatar3.jpg'
-import Avatar4 from './assets/images/avatar4.jpg'
-import Avatar5 from './assets/images/avatar5.jpg'
-import Avatar6 from './assets/images/avatar6.jpg'
-import Avatar7 from './assets/images/avatar6.jpg'
+import { SiOpenaigym } from "react-icons/si";
+import Avatar1 from "./assets/images/avatar1.jpg";
+import Avatar2 from "./assets/images/avatar2.jpg";
+import Avatar3 from "./assets/images/avatar3.jpg";
+import Avatar4 from "./assets/images/avatar4.jpg";
+import Avatar5 from "./assets/images/avatar5.jpg";
+import Avatar6 from "./assets/images/avatar6.jpg";
+import Avatar7 from "./assets/images/avatar6.jpg";
 
 export const links = [
-    {
-        name: "Home",
-        path: '/'
-    },
-    {
-        name: "About",
-        path: '/about'
-    },
-    {
-        name: "Gallery",
-        path: '/gallery'
-    },
-    {
-        name: "Plans",
-        path: '/plans'
-    },
-    {
-        name: "Trainers",
-        path: '/trainers'
-    },
-    {
-        name: "Contact",
-        path: '/contact'
-    }
-]
-
-
-
-
-
-
+  {
+    name: "Home",
+    path: "/",
+  },
+  {
+    name: "About",
+    path: "/about",
+  },
+  {
+    name: "Gallery",
+    path: "/gallery",
+  },
+  {
+    name: "Plans",
+    path: "/plans",
+  },
+  {
+    name: "Trainers",
+    path: "/trainers",
+  },
+  {
+    name: "Contact",
+    path: "/contact",
+  },
+];
 
 export const programs = [
   {
@@ -71,82 +65,71 @@ export const programs = [
   },
 ];
 
-
-
-
-
-
-
-
 export const values = [
-    {
-        id: 1,
-        icon: <SiOpenaigym/>,
-        title: "Value One",
-        desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum."
-    },
-    {
-        id: 2,
-        icon: <SiOpenaigym/>,
-        title: "Value Two",
-        desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum."
-    },
-    {
-        id: 3,
-        icon: <SiOpenaigym/>,
-        title: "Value Three",
-        desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum."
-    },
-    {
-        id: 4,
-        icon: <SiOpenaigym/>,
-        title: "Value Four",
-        desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum."
-    }
-]
-
-
-
-
-
-
-
-
+  {
+    id: 1,
+    icon: <SiOpenaigym />,
+    title: "Value One",
+    desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum.",
+  },
+  {
+    id: 2,
+    icon: <SiOpenaigym />,
+    title: "Value Two",
+    desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum.",
+  },
+  {
+    id: 3,
+    icon: <SiOpenaigym />,
+    title: "Value Three",
+    desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum.",
+  },
+  {
+    id: 4,
+    icon: <SiOpenaigym />,
+    title: "Value Four",
+    desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum.",
+  },
+];
 
 export const faqs = [
-    {
-        id: 1,
-        question: "How often should I exercise?",
-        answer: "Consectetur adipisicing elit. Non ipsa dolorem, rem consequatur eum omnis ex, fuga temporibus qui nesciunt odio aliquam commodi culpa inventore ut similique repellendus perferendis sint!"
-    },
-    {
-        id: 2,
-        question: "What time of day is best to work out?",
-        answer: "Distinctio nihil blanditiis accusantium atque, quo maxime inventore eum! Cum dolorem quibusdam amet et qui. Eos, omnis beatae? Quas, est at! Molestiae quidem ab soluta exercitationem culpa nostrum iusto illum qui non a harum deserunt atque commodi at velit."
-    },
-    {
-        id: 3,
-        question: "How long should my workouts be?",
-        answer: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content."
-    },
-    {
-        id: 4,
-        question: "Do I need to warm up before my workouts?",
-        answer: "Molestiae quidem ab soluta exercitationem culpa nostrum iusto illum qui non a harum deserunt atque commodi at velit, consequatur quibusdam dignissimos cum labore possimus placeat consectetur nisi cupiditate? Qui totam est omnis dolor nobis quisquam veritatis a!"
-    },
-    {
-        id: 5,
-        question: "Should I do strength training, cardio or both?",
-        answer: "Maiores fuga, cum praesentium esse laudantium! Distinctio nihil blanditiis accusantium atque, quo maxime inventore eum! Cum dolorem quibusdam amet et qui."
-    },
-    {
-        id: 6,
-        question: "Should I lift weights for strength training?",
-        answer: "Quas, est at! Molestiae quidem ab soluta exercitationem culpa nostrum iusto illum qui non a harum deserunt atque commodi at velit, consequatur quibusdam dignissimos cum labore possimus placeat consectetur nisi cupiditate."
-    }
-]
-
-
+  {
+    id: 1,
+    question: "How often should I exercise?",
+    answer:
+      "Consectetur adipisicing elit. Non ipsa dolorem, rem consequatur eum omnis ex, fuga temporibus qui nesciunt odio aliquam commodi culpa inventore ut similique repellendus perferendis sint!",
+  },
+  {
+    id: 2,
+    question: "What time of day is best to work out?",
+    answer:
+      "Distinctio nihil blanditiis accusantium atque, quo maxime inventore eum! Cum dolorem quibusdam amet et qui. Eos, omnis beatae? Quas, est at! Molestiae quidem ab soluta exercitationem culpa nostrum iusto illum qui non a harum deserunt atque commodi at velit.",
+  },
+  {
+    id: 3,
+    question: "How long should my workouts be?",
+    answer:
+      "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
+  },
+  {
+    id: 4,
+    question: "Do I need to warm up before my workouts?",
+    answer:
+      "Molestiae quidem ab soluta exercitationem culpa nostrum iusto illum qui non a harum deserunt atque commodi at velit, consequatur quibusdam dignissimos cum labore possimus placeat consectetur nisi cupiditate? Qui totam est omnis dolor nobis quisquam veritatis a!",
+  },
+  {
+    id: 5,
+    question: "Should I do strength training, cardio or both?",
+    answer:
+      "Maiores fuga, cum praesentium esse laudantium! Distinctio nihil blanditiis accusantium atque, quo maxime inventore eum! Cum dolorem quibusdam amet et qui.",
+  },
+  {
+    id: 6,
+    question: "Should I lift weights for strength training?",
+    answer:
+      "Quas, est at! Molestiae quidem ab soluta exercitationem culpa nostrum iusto illum qui non a harum deserunt atque commodi at velit, consequatur quibusdam dignissimos cum labore possimus placeat consectetur nisi cupiditate.",
+  },
+];
 
 export const testimonials = [
   {
@@ -155,7 +138,7 @@ export const testimonials = [
     quote:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi vitae esse in id, porro aut quia temporibus sed provident ipsum?",
     job: "Student",
-    avatar: Avatar1 ,
+    avatar: Avatar1,
   },
   {
     id: 2,
@@ -163,7 +146,7 @@ export const testimonials = [
     quote:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi vitae esse in id, porro aut quia temporibus sed provident ipsum?",
     job: "Student",
-    avatar:  Avatar2 ,
+    avatar: Avatar2,
   },
   {
     id: 3,
@@ -171,7 +154,7 @@ export const testimonials = [
     quote:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi vitae esse in id, porro aut quia temporibus sed provident ipsum?",
     job: "Student",
-    avatar:  Avatar3 ,
+    avatar: Avatar3,
   },
   {
     id: 4,
@@ -179,7 +162,7 @@ export const testimonials = [
     quote:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi vitae esse in id, porro aut quia temporibus sed provident ipsum?",
     job: "Student",
-    avatar: Avatar4 ,
+    avatar: Avatar4,
   },
   {
     id: 5,
@@ -187,7 +170,7 @@ export const testimonials = [
     quote:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi vitae esse in id, porro aut quia temporibus sed provident ipsum?",
     job: "Student",
-    avatar: Avatar5 ,
+    avatar: Avatar5,
   },
   {
     id: 6,
@@ -195,7 +178,7 @@ export const testimonials = [
     quote:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi vitae esse in id, porro aut quia temporibus sed provident ipsum?",
     job: "Student",
-    avatar:  Avatar6 ,
+    avatar: Avatar6,
   },
   {
     id: 1,
@@ -203,144 +186,214 @@ export const testimonials = [
     quote:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi vitae esse in id, porro aut quia temporibus sed provident ipsum?",
     job: "Student",
-    avatar:  Avatar7 ,
+    avatar: Avatar7,
   },
 ];
 
-
-
-
-
-
-
-
-
-
-
 export const plans = [
-    {
-        id: 1,
-        name: 'Silver Package',
-        desc: 'This package is perfect for beginners who need constant help',
-        price: 29.99,
-        features: [
-            {feature: 'First Feature', available: true},
-            {feature: 'Second Feature', available: true},
-            {feature: 'Third Feature', available: true},
-            {feature: 'Fourth Feature', available: true},
-            {feature: 'Fifth Feature', available: true},
-            {feature: 'Fifth Feature Plus', available: false},
-            {feature: 'Sixth Feature', available: false},
-            {feature: 'Seventh Feature', available: false},
-            {feature: 'Seventh Feature Plus', available: false},
-            {feature: 'Eighth Feature', available: false},
-            {feature: 'Ninth Feature', available: false},
-            {feature: 'Tenth Feature', available: false},
-            {feature: 'Eleventh Feature', available: false}
-        ]
-    },
-    {
-        id: 2,
-        name: 'Gold Package',
-        desc: 'This is the perfect package for beginners who know what their doing',
-        price: 49.99,
-        features: [
-            {feature: 'First Feature', available: true},
-            {feature: 'Second Feature', available: true},
-            {feature: 'Third Feature', available: true},
-            {feature: 'Fourth Feature', available: true},
-            {feature: 'Fifth Feature', available: true},
-            {feature: 'Fifth Feature Plus', available: true},
-            {feature: 'Sixth Feature', available: true},
-            {feature: 'Seventh Feature', available: true},
-            {feature: 'Seventh Feature Plus', available: true},
-            {feature: 'Eighth Feature', available: false},
-            {feature: 'Ninth Feature', available: false},
-            {feature: 'Tenth Feature', available: false},
-            {feature: 'Eleventh Feature', available: false}
-        ]
-    },
-    {
-        id: 3,
-        name: 'Platinum Package',
-        desc: 'This package is perfect for busy people who need home service',
-        price: 89.99,
-        features: [
-            {feature: 'First Feature', available: true},
-            {feature: 'Second Feature', available: true},
-            {feature: 'Third Feature', available: true},
-            {feature: 'Fourth Feature', available: true},
-            {feature: 'Fifth Feature', available: true},
-            {feature: 'Fifth Feature Plus', available: true},
-            {feature: 'Sixth Feature', available: true},
-            {feature: 'Seventh Feature', available: true},
-            {feature: 'Seventh Feature Plus', available: true},
-            {feature: 'Eighth Feature', available: true},
-            {feature: 'Ninth Feature', available: true},
-            {feature: 'Tenth Feature', available: true},
-            {feature: 'Eleventh Feature', available: true}
-        ]
-    }
-]
+  {
+    id: 1,
+    name: "Silver Package",
+    desc: "This package is perfect for beginners who need constant help",
+    price: 29.99,
+    features: [
+      { feature: "First Feature", available: true },
+      { feature: "Second Feature", available: true },
+      { feature: "Third Feature", available: true },
+      { feature: "Fourth Feature", available: true },
+      { feature: "Fifth Feature", available: true },
+      { feature: "Fifth Feature Plus", available: false },
+      { feature: "Sixth Feature", available: false },
+      { feature: "Seventh Feature", available: false },
+      { feature: "Seventh Feature Plus", available: false },
+      { feature: "Eighth Feature", available: false },
+      { feature: "Ninth Feature", available: false },
+      { feature: "Tenth Feature", available: false },
+      { feature: "Eleventh Feature", available: false },
+    ],
+  },
+  {
+    id: 2,
+    name: "Gold Package",
+    desc: "This is the perfect package for beginners who know what their doing",
+    price: 49.99,
+    features: [
+      { feature: "First Feature", available: true },
+      { feature: "Second Feature", available: true },
+      { feature: "Third Feature", available: true },
+      { feature: "Fourth Feature", available: true },
+      { feature: "Fifth Feature", available: true },
+      { feature: "Fifth Feature Plus", available: true },
+      { feature: "Sixth Feature", available: true },
+      { feature: "Seventh Feature", available: true },
+      { feature: "Seventh Feature Plus", available: true },
+      { feature: "Eighth Feature", available: false },
+      { feature: "Ninth Feature", available: false },
+      { feature: "Tenth Feature", available: false },
+      { feature: "Eleventh Feature", available: false },
+    ],
+  },
+  {
+    id: 3,
+    name: "Platinum Package",
+    desc: "This package is perfect for busy people who need home service",
+    price: 89.99,
+    features: [
+      { feature: "First Feature", available: true },
+      { feature: "Second Feature", available: true },
+      { feature: "Third Feature", available: true },
+      { feature: "Fourth Feature", available: true },
+      { feature: "Fifth Feature", available: true },
+      { feature: "Fifth Feature Plus", available: true },
+      { feature: "Sixth Feature", available: true },
+      { feature: "Seventh Feature", available: true },
+      { feature: "Seventh Feature Plus", available: true },
+      { feature: "Eighth Feature", available: true },
+      { feature: "Ninth Feature", available: true },
+      { feature: "Tenth Feature", available: true },
+      { feature: "Eleventh Feature", available: true },
+    ],
+  },
+];
 
+import Trainer1 from "./assets/images/trainer1.jpg";
+import Trainer2 from "./assets/images/trainer2.jpg";
+import Trainer3 from "./assets/images/trainer3.jpg";
+import Trainer4 from "./assets/images/trainer4.jpg";
+import Trainer5 from "./assets/images/trainer5.jpg";
+import Trainer6 from "./assets/images/trainer6.jpg";
+import {
+  AiOutlineInstagram,
+  AiOutlineTwitter,
+} from "react-icons/ai";
 
-
-
-
-
-
-
-
-import Trainer1 from './assets/images/trainer1.jpg'
-import Trainer2 from './assets/images/trainer2.jpg'
-import Trainer3 from './assets/images/trainer3.jpg'
-import Trainer4 from './assets/images/trainer4.jpg'
-import Trainer5 from './assets/images/trainer5.jpg'
-import Trainer6 from './assets/images/trainer6.jpg'
-
-
+import { FaFacebookF,FaLinkedinIn } from "react-icons/fa";
 
 export const trainers = [
-    {
-        id: 1,
-        image: Trainer1,
-        name: 'John Doe',
-        job: 'Aerobic Trainer',
-        socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
-    },
-    {
-        id: 2,
-        image: Trainer2,
-        name: 'Daniel vinyo',
-        job: 'Speed Trainer',
-        socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
-    },
-    {
-        id: 3,
-        image: Trainer3,
-        name: 'Edem Quist',
-        job: 'Flexibility Trainer',
-        socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
-    },
-    {
-        id: 4,
-        image: Trainer4,
-        name: 'Shatta Wale',
-        job: 'Body Composition Trainer',
-        socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
-    },
-    {
-        id: 5,
-        image: Trainer5,
-        name: 'Diana Ayi',
-        job: 'Circuit Trainer',
-        socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
-    },
-    {
-        id: 6,
-        image: Trainer6,
-        name: 'Wayne Carter',
-        job: 'Physical Intelligence Trainer',
-        socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
-    }
-]
+  {
+    id: 1,
+    image: Trainer1,
+    name: "John Doe",
+    job: "Aerobic Trainer",
+    socials: [
+      {
+        link: "https://instagram.com/",
+        icon: <AiOutlineInstagram />,
+      },
+      {
+        link: "https://twitter.com/",
+        icon: <AiOutlineTwitter />,
+      },
+      {
+        link: "https://facebook.com/",
+        icon: <FaFacebookF />,
+      },
+      { link: "https://linkedin.com/", icon: <FaLinkedinIn /> },
+    ],
+  },
+  {
+    id: 2,
+    image: Trainer2,
+    name: "Daniel vinyo",
+    job: "Speed Trainer",
+    socials: [
+      {
+        link: "https://instagram.com/",
+        icon: <AiOutlineInstagram />,
+      },
+      {
+        link: "https://twitter.com/",
+        icon: <AiOutlineTwitter />,
+      },
+      {
+        link: "https://facebook.com/",
+        icon: <FaFacebookF />,
+      },
+      { link: "https://linkedin.com/", icon: <FaLinkedinIn /> },
+    ],
+  },
+  {
+    id: 3,
+    image: Trainer3,
+    name: "Edem Quist",
+    job: "Flexibility Trainer",
+    socials: [
+      {
+        link: "https://instagram.com/",
+        icon: <AiOutlineInstagram />,
+      },
+      {
+        link: "https://twitter.com/",
+        icon: <AiOutlineTwitter />,
+      },
+      {
+        link: "https://facebook.com/",
+        icon: <FaFacebookF />,
+      },
+      { link: "https://linkedin.com/", icon: <FaLinkedinIn /> },
+    ],
+  },
+  {
+    id: 4,
+    image: Trainer4,
+    name: "Shatta Wale",
+    job: "Body Composition Trainer",
+    socials: [
+      {
+        link: "https://instagram.com/",
+        icon: <AiOutlineInstagram />,
+      },
+      {
+        link: "https://twitter.com/",
+        icon: <AiOutlineTwitter />,
+      },
+      {
+        link: "https://facebook.com/",
+        icon: <FaFacebookF />,
+      },
+      { link: "https://linkedin.com/", icon: <FaLinkedinIn /> },
+    ],
+  },
+  {
+    id: 5,
+    image: Trainer5,
+    name: "Diana Ayi",
+    job: "Circuit Trainer",
+    socials: [
+      {
+        link: "https://instagram.com/",
+        icon: <AiOutlineInstagram />,
+      },
+      {
+        link: "https://twitter.com/",
+        icon: <AiOutlineTwitter />,
+      },
+      {
+        link: "https://facebook.com/",
+        icon: <FaFacebookF />,
+      },
+      { link: "https://linkedin.com/", icon: <FaLinkedinIn /> },
+    ],
+  },
+  {
+    id: 6,
+    image: Trainer6,
+    name: "Wayne Carter",
+    job: "Physical Intelligence Trainer",
+    socials: [
+      {
+        link: "https://instagram.com/",
+        icon: <AiOutlineInstagram />,
+      },
+      {
+        link: "https://twitter.com/",
+        icon: <AiOutlineTwitter />,
+      },
+      {
+        link: "https://facebook.com/",
+        icon: <FaFacebookF />,
+      },
+      { link: "https://linkedin.com/", icon: <FaLinkedinIn /> },
+    ],
+  },
+];

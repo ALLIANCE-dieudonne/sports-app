@@ -1,0 +1,57 @@
+.trainers_wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+
+}
+
+.trainer {
+    padding: 2rem;
+    border-radius: 0 3rem 0 3rem;
+}
+
+.card.trainer {
+    padding: 1rem;
+}
+
+.trainer__image {
+    border-radius: 0 2rem 0 0rem;
+    overflow: hidden;
+}
+
+.trainer h3 {
+    margin-top: 1rem;
+}
+
+.trainer_social {
+    font-size: x-large;
+    margin: 2rem;
+}
+
+.trainer_social a {
+    padding: 0.5rem 0.8rem;
+    background: var(--color-gray-600);
+    margin: 5px;
+    border-radius: 5px;
+    transition: var(--transition);
+}
+
+.trainer:hover a {
+    background: var(--color-secondary);
+}
+
+/* small screens */
+@media screen and (max-width: 768px) {
+    .trainers_wrapper {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    .trainers_wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

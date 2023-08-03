@@ -1,5 +1,7 @@
 import Header from "../../components/Header";
 import Image from "../../assets/images/header_bg_5.jpg";
+import { trainers } from "../../data";
+import Trainer from "../../components/Trainer.jsx";
 import "./trainers.css";
 
 const Trainers = (props) => {
@@ -10,7 +12,11 @@ const Trainers = (props) => {
         perspiciatis ea iure nesciunt nemo quia repellat. Assumenda praesentium.
       </Header>
 
-      <section className="container trainers_wrapper"></section>
+      <section className="container trainers_wrapper">
+        {trainers.map((item, i) => (
+          <Trainer data={item} key={i} />
+        ))}
+      </section>
     </>
   );
 };

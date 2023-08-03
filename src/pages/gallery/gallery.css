@@ -5,6 +5,10 @@
     margin-top: -2rem;
 }
 
+img{
+    border-radius: 5px;
+}
+
 .gallery__image_wrapper_one img {
     height: 25rem;
 }

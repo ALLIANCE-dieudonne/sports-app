@@ -1,8 +1,8 @@
 import Header from "../../components/Header";
 import HeaderImage from "../../assets/images/header_bg_1.jpg";
-import StoryImage from '../../assets/images/about1.jpg';
-import MissionImage from '../../assets/images/about2.jpg';
-import VisionImage from '../../assets/images/about3.jpg';
+import StoryImage from "../../assets/images/about1.jpg";
+import MissionImage from "../../assets/images/about2.jpg";
+import VisionImage from "../../assets/images/about.jpeg";
 import "./about.css";
 
 const About = (props) => {
@@ -14,14 +14,18 @@ const About = (props) => {
         facilis, aliquid!
       </Header>
 
-      <section className="about__story">
-        <div className="container about__story-container">
-          <div className="about__section-img">
-            <img src={StoryImage} alt="about image one" />
+      <div className="about__wrapper">
+        <div className="about__story">
+          <div className="about__section-img ">
+            <img
+              src={StoryImage}
+              alt="about image one"
+              className="vision_image"
+            />
           </div>
 
           <div className="about__section-content">
-            <h1>Our Story</h1>
+            <h2>Our Story</h2>
 
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio
@@ -42,41 +46,39 @@ const About = (props) => {
             </p>
           </div>
         </div>
-      </section>
-      <section className="our__vision">
-        <div className="container vision__container">
-          <div className="about__section-content">
-            <h1>Our Vision</h1>
+        <div className="vision__wrapper">
+          <div className=" vision__story">
+            <img
+              src={VisionImage}
+              alt="vision image one"
+              className="vision__section-img"
+            />
+            <div className="vision__section-content">
+              <h2>Our Vision</h2>
 
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio
-              similique architecto minima unde voluptatum aut iure, officia nisi
-              asperiores quos repudiandae veniam magni minus cupiditate
-              reprehenderit at! Impedit, doloremque totam!
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio
-              similique architecto minima unde voluptatum aut iure, officia nisi
-              asperiores quos repudiandae veniam magni minus cupiditate
-              reprehenderit at! Impedit, doloremque totam!
-            </p>
-           
-          </div>
-
-          <div className="about__section-img">
-            <img src={VisionImage} alt="vision image one" />
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio
+                similique architecto minima unde voluptatum aut iure, officia
+                nisi asperiores quos repudiandae veniam magni minus cupiditate
+                reprehenderit at! Impedit, doloremque totam!
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio
+                similique architecto minima unde voluptatum aut iure, officia
+                nisi asperiores quos repudiandae veniam magni minus cupiditate
+                reprehenderit at! Impedit, doloremque totam!
+              </p>
+            </div>
           </div>
         </div>
-      </section>
 
-      <section className="our__mission">
-        <div className="container mission__container">
+        <div className=" mission__story">
           <div className="about__section-img">
             <img src={MissionImage} alt="misson img" />
           </div>
 
           <div className="about__section-content">
-            <h1>Our Mission</h1>
+            <h2>Our Mission</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit .
               Accusamus debitis omnis aspernatur fugiat magnam quasi! Quia
@@ -99,7 +101,7 @@ const About = (props) => {
             </p>
           </div>
         </div>
-      </section>
+      </div>
     </>
   );
 };

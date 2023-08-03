@@ -67,16 +67,16 @@ const Footer = () => {
         </article>
         <article>
           <h4>Insights</h4>
-          <Link to="/s">Blog</Link>
-          <Link to="/s">Case Studies</Link>
-          <Link to="/s">Events</Link>
-          <Link to="/s">Communities</Link>
-          <Link to="/s">FAQS</Link>
+          <Link to="/">Blog</Link>
+          <Link to="/">Case Studies</Link>
+          <Link to="/">Events</Link>
+          <Link to="/">Communities</Link>
+          <Link to="/">FAQS</Link>
         </article>
         <article>
           <h4>Get In Touch</h4>
           <Link to="/contact">Contact</Link>
-          <Link to="/s">Support</Link>
+          <Link to="/">Support</Link>
         </article>
       </div>
 

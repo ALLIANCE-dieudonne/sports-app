@@ -1,77 +1,91 @@
+.about__wrapper {
+    margin: 0 2rem;
+}
+
+.about__story {
+    width: full;
+    display: flex;
+    gap: 2rem;
+    margin-top: 3rem;
+    height: min-content;
+}
+
 .about__section-img {
-    border-radius: 50%;
     overflow: hidden;
-    transform: skew(15deg);
-    transition: var(--transition);
+    border-radius: 100%;
 }
 
-.about__section-img:hover {
-    transform: skew(0);
-}
-
-
-
-.about__story-container,
-.mission__container {
-    display: grid;
-    grid-template-columns: 40% 50%;
-    gap: 10%;
-}
-
-.vision__container {
-    display: grid;
-    grid-template-columns: 50% 40%;
-    gap: 10%;
-}
-
-.about__section-content h1 {
-    font-size: 2rem;
-    margin-bottom: 2rem;
-}
-
-.about__section-content p {
-    font-size: 1rem;
-    line-height: 2rem;
+.about__section-content h2 {
+    margin-bottom: 1rem;
 }
 
 
-/* MEDIUM DEVICES */
+.vision__story {
+    width: full;
+    display: flex;
+    gap: 2rem;
+    margin-top: 3rem;
+    height: min-content;
+}
+
+.vision__section-img {
+    overflow: hidden;
+    border-radius: 100%;
+    width: 55vw;
+    height: 55vh;
+}
 
 
-@media screen and (max-width: 1024px) {
-    .about__section-img {
-        width: 60%;
+
+.vision__section-content h2 {
+    margin-bottom: 1rem;
+}
+
+
+
+.mission__story {
+    width: full;
+    display: flex;
+    gap: 2rem;
+    margin-top: 3rem;
+    height: min-content;
+}
+
+.mission__section-img {
+    overflow: hidden;
+    border-radius: 100%;
+}
+
+.mission__section-content h2 {
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 1200px) {
+    .about__story {
+        display: block;
     }
 
-    .about__story-container,
-    .mission__container
-     {
-        grid-template-columns: 1fr;
-        gap: 7%;
-        margin-top: -5rem;
-
+    .vision__story {
+        display: block;
     }
 
-    .vision__container{
-        grid-template-columns: 1fr;
-        margin-top: -4rem;
+    .mission__story {
+        display: block;
     }
 
-    .about__section-img{
-        grid-row: 1;
-        transform: skew(0);
-        margin: 0.5rem auto;
-
-    }
-
-
-}
-
-/* SMALL DEVICES */
-
-@media screen and(max-width: 600px) {
-    .about__section-img{
+    .vision__section-img {
         width: 100%;
-        margin-inline: auto;
+        height: 100%;
     }
+
+    .about__section-img {
+        display: none;
+    }
+
+    .mission__section-img {
+        display: none;
+    }
+        .vision__section-img{
+            display: none;
+        }
 }

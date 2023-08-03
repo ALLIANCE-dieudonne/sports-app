@@ -5,7 +5,6 @@ import { links } from "../data";
 import { GoThreeBars } from "react-icons/go";
 import {MdOutlineClose} from "react-icons/md"
 import { useState } from "react";
-
 const Navbar = () => {
   const [isNavShowing, setIsNavShowing] = useState(false);
 
