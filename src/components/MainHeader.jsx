@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import Image from "../assets/images/main_header.png";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const MainHeader = () => {
   return (
@@ -22,7 +23,7 @@ const MainHeader = () => {
         >
           <div className="main__header-circle"></div>
           <div className="main__header-img">
-            <img src={Image} alt="main header image" />
+            <LazyLoadImage src={Image} alt="main header image" />
           </div>
         </div>
       </div>
