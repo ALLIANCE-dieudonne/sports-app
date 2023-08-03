@@ -7,7 +7,7 @@ const Trainer = ({ data }) => {
   return (
     <Card className="trainer">
       <div className="trainer__image">
-        <LazyLoadImage src={data.image} alt={data.name} effect="blur" />
+        <img src={data.image} alt={data.name} effect="blur" />
       </div>
       <h3>{data.name}</h3>
       <p>{data.job}</p>
