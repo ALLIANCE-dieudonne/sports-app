@@ -1,10 +1,12 @@
 import Card from "../UI/Card";
 import "../pages/trainers/trainers.css"
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
 const Trainer = ({ data }) => {
   return (
     <Card className="trainer">
       <div className="trainer__image">
-        <img src={data.image} alt={data.name} />
+        <LazyLoadImage src={data.image} alt={data.name} />
       </div>
       <h3>{data.name}</h3>
       <p>{data.job}</p>

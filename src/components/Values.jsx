@@ -3,13 +3,14 @@ import { values } from "../data";
 import { GiCutDiamond } from "react-icons/gi";
 import Card from "../UI/Card";
 import Image from "../assets/images/values.jpg";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 const Values = () => {
   return (
     <section className="values">
       <div className="container values__container">
         <div className="values__left">
           <div className="values__img">
-            <img src={Image} alt="values img" />
+            <LazyLoadImage src={Image} alt="values img" />
           </div>
         </div>
         <div className="values__right">

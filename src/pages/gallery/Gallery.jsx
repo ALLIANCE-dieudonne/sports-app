@@ -16,6 +16,8 @@ import Image12 from '../../assets/images/gallery12.jpg'
 import Image13 from '../../assets/images/gallery13.jpg'
 import Image14 from '../../assets/images/gallery14.jpg'
 import Image15 from '../../assets/images/gallery15.jpg'
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
 const Galley = (props) => {
   return (
     <>
@@ -29,27 +31,27 @@ const Galley = (props) => {
       <section>
         <div className="container gallery_images_container">
           <div className="gallery__image_wrapper_one">
-            <img src={Image1} alt="image one" />
-            <img src={Image2} alt="image two" />
-            <img src={Image3} alt="image three" />
-            <img src={Image4} alt="image four" />
-            <img src={Image5} alt="image five" />
-            <img src={Image6} alt="image six" />
+            <LazyLoadImage src={Image1} alt="image one" />
+            <LazyLoadImage src={Image2} alt="image two" />
+            <LazyLoadImage src={Image3} alt="image three" />
+            <LazyLoadImage src={Image4} alt="image four" />
+            <LazyLoadImage src={Image5} alt="image five" />
+            <LazyLoadImage src={Image6} alt="image six" />
           </div>
 
           <div className="gallery__image_wrapper_two">
-            <img src={Image7} alt="image seven" />
-            <img src={Image8} alt="image eight" />
-            <img src={Image9} alt="image nine" />
+            <LazyLoadImage src={Image7} alt="image seven" />
+            <LazyLoadImage src={Image8} alt="image eight" />
+            <LazyLoadImage src={Image9} alt="image nine" />
           </div>
 
           <div className="gallery__image_wrapper_one">
-            <img src={Image10} alt="image ten" />
-            <img src={Image11} alt="image eleven" />
-            <img src={Image12} alt="image twelve" />
-            <img src={Image13} alt="image thirteen" />
-            <img src={Image14} alt="image fourteen" />
-            <img src={Image15} alt="image fifteen" />
+            <LazyLoadImage src={Image10} alt="image ten" />
+            <LazyLoadImage src={Image11} alt="image eleven" />
+            <LazyLoadImage src={Image12} alt="image twelve" />
+            <LazyLoadImage src={Image13} alt="image thirteen" />
+            <LazyLoadImage src={Image14} alt="image fourteen" />
+            <LazyLoadImage src={Image15} alt="image fifteen" />
           </div>
         </div>
       </section>

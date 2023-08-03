@@ -3,6 +3,8 @@ import HeaderImage from "../../assets/images/header_bg_1.jpg";
 import StoryImage from "../../assets/images/about1.jpg";
 import MissionImage from "../../assets/images/about2.jpg";
 import VisionImage from "../../assets/images/about.jpeg";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
 import "./about.css";
 
 const About = (props) => {
@@ -17,7 +19,7 @@ const About = (props) => {
       <div className="about__wrapper">
         <div className="about__story">
           <div className="about__section-img ">
-            <img
+            <LazyLoadImage
               src={StoryImage}
               alt="about image one"
               className="vision_image"
@@ -48,7 +50,7 @@ const About = (props) => {
         </div>
         <div className="vision__wrapper">
           <div className=" vision__story">
-            <img
+            <LazyLoadImage
               src={VisionImage}
               alt="vision image one"
               className="vision__section-img"
@@ -74,7 +76,7 @@ const About = (props) => {
 
         <div className=" mission__story">
           <div className="about__section-img">
-            <img src={MissionImage} alt="misson img" />
+            <LazyLoadImage src={MissionImage} alt="misson img" />
           </div>
 
           <div className="about__section-content">

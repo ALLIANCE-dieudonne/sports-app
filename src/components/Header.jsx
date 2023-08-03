@@ -1,10 +1,11 @@
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
-const Header = ({title, image, children}) => {
+const Header = ({ title, image, children }) => {
   return (
     <header className="header">
       <div className="header__container">
         <div className="header__container-bg">
-          <img src={image} alt="header image" />
+          <LazyLoadImage src={image} alt="header image" />
         </div>
 
         <div className="header__content">
@@ -14,6 +15,6 @@ const Header = ({title, image, children}) => {
       </div>
     </header>
   );
-}
+};
 
-export default Header
+export default Header;
